@@ -1,0 +1,254 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: none;
+font-style: normal;
+text-align: left;
+zoom: 1;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+table {
+border-collapse: collapse;
+font-family: inherit;
+}
+h1,h2,h3,h4,h5 {
+font-size: 100%;
+font-weight: normal;
+line-height: 1;
+}
+input,textarea,select {
+font-family: inherit;
+font-size: 16px;
+}
+input[type="button"],input[type="text"],input[type="submit"] {
+-webkit-appearance: none;
+border-radius: 0;
+}
+textarea {
+resize: none;
+-webkit-appearance: none;
+border-radius: 0;
+}
+th,td {
+border-collapse: collapse;
+}
+table th,table td {
+white-space: nowrap;
+}
+ul,ol {
+list-style-type: none;
+}
+img {
+vertical-align: text-bottom;
+vertical-align: -webkit-baseline-middle;
+max-width: 100%;
+height: auto;
+width /***/:auto;
+}
+body{
+    max-width: 100%;
+    margin: 0 auto ;
+}
+* {
+    box-sizing: border-box;
+    }
+
+    body {
+    color: #333;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    }
+header{
+    max-width: 100%;
+}
+
+.header_rogo img{
+    width: 100%;
+    object-fit: cover;
+}
+.header_rogo{
+    width: 20%;
+}
+.list-or{
+    position: relative;
+}
+.list-or::after {
+    content: " ";
+    display: block;
+    width: 1px;
+    height: 2em;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+li a:hover{
+    color: rgb(182, 248, 116) ;
+}
+.font_h1{
+    font-family: udkakugolarge,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+    color: white;
+    text-shadow: rgb(0 0 0 / 30%) 0px 5px 0px;
+}
+p.font_p{
+    font-family: 'Open Sans', sans-serif;
+}
+.font-color{
+    color: white;
+    line-height: 3em;
+}
+.font-red{
+    color: rgb(226, 64, 64);
+}
+.top25{
+    top: 40%;
+}
+.left20{
+    left: 50%;
+}
+.pr{
+    width: 100%;
+}
+.line-hait{
+    line-height: 3em;
+}
+.blok{
+    display: inline block;
+}
+.margin{
+    margin: 20px 0 100px;
+}
+.fonth1{
+    font-size: 50px;
+}
+.no_wrap{
+    white-space: nowrap;
+}
+.font_p{
+    font-size: 25px;
+}
+.display{
+    display: block;
+    display: flex;
+}
+.with{
+    width: 100%;
+    padding: 100px;
+}
+.around{
+    justify-content: space-around;
+}
+.alinitem{
+    align-items: center;
+    text-align: center;
+}
+.auto{
+    margin: 0 auto;
+}
+h4,p{
+    text-align: center;
+}
+.pd{
+    padding: 100px 0;
+}
+.pd30{
+    padding: 30px;
+}
+.background{
+    background-color: darkgrey;
+}
+.background_whit{
+    background-color: whitesmoke;
+}
+.backgrond_green{
+    background-color: rgb(148, 184, 93);
+}
+.img_with{
+    width: 200px;
+}
+.color_w{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.color_g{
+    color: rgb(163, 163, 174);
+    text-decoration: none;
+}
+
+
+.mg_top{
+    margin-top: 100px;
+}
+.with50{
+    width: 50%;
+    object-fit: cover;
+}
+
+.contact_name{
+    width: 27%;
+    margin: 5px 5px;
+}
+.subject input{
+    width: 56.3%;
+    margin: 5px 5px;
+}
+.coment textarea{
+    width: 56.3%;
+    height: 150px;
+    margin: 5px 5px;
+}
+.bttn input{
+    width: 56.3%;
+    margin: 5px 5px;
+}
+.mg_c{
+    margin: 10 auto;
+}
+.red{
+    background-color: rgb(240, 120, 120);
+}
+.end img{
+    width: 20%;
+}
+.contact-table{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pd-lr{
+    padding: 0 20px;
+}
+.bc-black{
+    background-color: black;
+}
+.cl-whit{
+    color: white;
+}
+.sns img{
+    width: 30px;
+    margin: 10px;
+}
+.relative{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.d_none{
+    display: none;
+}
